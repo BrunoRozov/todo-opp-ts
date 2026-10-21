@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.updateTodo = exports.getTodos = exports.createTodo = void 0;
+exports.deleteTodo = exports.updateTodo = exports.getTodos = exports.createTodo = void 0;
 const todo_1 = require("../models/todo");
 const todos = [];
 const createTodo = (req, res, next) => {
@@ -54,4 +54,7 @@ const updateTodo = (req, res, next) => {
     }
 };
 exports.updateTodo = updateTodo;
+const deleteTodo = (req, res, next) => {
+};
+exports.deleteTodo = deleteTodo;
 //# sourceMappingURL=todos.js.map

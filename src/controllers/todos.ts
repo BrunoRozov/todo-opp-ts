@@ -55,3 +55,7 @@ export const updateTodo = (req: Request, res: Response, next: NextFunction) => {
     console.log(error)
   }
 }
+
+export const deleteTodo = (req: Request, res: Response, next: NextFunction) => {
+    
+}
